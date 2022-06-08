@@ -15,7 +15,7 @@
             </repository>
             <repository>
                 <id>github</id>
-                <url>https://maven.pkg.github.com/2115-27/java-maven-sample-war</url>
+                <url>https://maven.pkg.github.com/2115-27/sample-helloworld-ant</url>
                 <snapshots>
                  <enabled>true</enabled>
                 </snapshots>
