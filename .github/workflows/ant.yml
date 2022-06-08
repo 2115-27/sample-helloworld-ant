@@ -22,6 +22,6 @@ jobs:
       run: ant -noinput -buildfile build.xml
        
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy:deploy-file -DgroupId=com.github.2115-27 -DartifactId=helloworld -Dpackaging=tar -Durl=https://github.com/2115-27/ -Dfile=HelloWorld.jar 
+      run: mvn deploy:deploy-file -DgroupId=com.github.2115-27 -DartifactId=helloworld -Dpackaging=tar -DrepositoryId=sample-helloworld-ant -Durl=https://github.com/2115-27/ -Dfile=HelloWorld.jar 
       env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
